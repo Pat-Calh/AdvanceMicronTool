@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is a webpage for testing scripts</h1>
+    <script>
+        let x = 5;
+        x = x + 4;
+        console.log("test of x variable");
+        console.log(x);
+        console.log("test of Y variable:");
+        let y = 7;
+        y = x * y;
+        console.log(y);
+        console.log("testing complex variables:");
+        const max = 57;
+        const actual = max - 13;
+        const percentage = actual / max;
+        console.log(percentage);
+        let string = "what is up ladies and gentleman"
+        console.log("manipulating strings:");
+        let str = string.substring(0,7);
+        console.log(str);
+        console.log(string);
+        
+    </script>
+
+<button>press me</button>
+<script>
+const button = document.querySelector('button');
+
+button.onclick = function() {
+
+console.log("time for function tests:")
+gotTheFunk();
+
+}
+function gotTheFunk(){
+let name = prompt("what is the word:");
+for(let i = 0; i < 25; i++){
+    console.log(i);
+    console.log(name);
+}
+}</script>
+
+
+
+
+</body>
+</html>
