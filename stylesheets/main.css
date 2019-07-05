@@ -82,3 +82,8 @@ body{
     background-color: #1b60cf56;
     border-radius: 50px;  
 }
+.bottomB{
+    text-align: center;
+    background-color: #303030b4;
+    pad: 50px;
+}
