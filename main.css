@@ -1,0 +1,73 @@
+
+.button {
+    background-color: #1b60cf;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flexbox;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+nav {
+    height: auto;
+    padding: 1em;
+
+}
+
+#nav1 {
+    background-color: rgba(128, 128, 128, 0.466);
+    position: sticky;
+    top: 0;
+
+}
+
+#nav2 {
+    background-color: ivory;
+    position: sticky;
+    bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.411);
+    border-left: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #1b60cf7c;
+}
+body{
+    background-image: url("http://overapi.com/static/images/background.jpg"); 
+    background-repeat: repeat;
+    background-position: left top;
+}
+.body1{
+    padding: 20px; 
+    border-radius: 25px;
+    background-color: #1b60cf56;
+    border-radius: 50px;  
+}
