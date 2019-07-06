@@ -79,9 +79,8 @@ body{
 }
 .body1{
     padding: 20px; 
-    border-radius: 25px;
     background-color: #1b60cf56;
-    border-radius: 50px;  
+    border-style: inset;
 }
 .bottomB{
     text-align: center;
